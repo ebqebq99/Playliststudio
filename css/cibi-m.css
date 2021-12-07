@@ -1,0 +1,51 @@
+/* COMMON */
+section {width: 100vw; overflow: hidden; text-align: left;}
+section#main-title {padding: 120px 0 0 0;}
+section#logo {padding: 120px 0 0 0;}
+section#slogan {padding: 120px 0 0 0;}
+section#key-visual {padding: 120px 0 0 0;}
+section#illustration {padding: 120px 0 0 0;}
+section#typograpy {padding: 120px 0 120px 0;}
+#footer {width: 100vw;}
+
+/* #main > #main-title */
+#main-title h1 {font-size: 56px; font-weight: 700; margin-bottom: 18px; letter-spacing: 0.1em;}
+#main-title .font36-24 {font-size: 24px; color: #000000; font-weight: 700;}
+
+#main-title div.bgImg img:nth-child(1) {position: absolute; z-index: -10; width: auto; height: 80px; top: 130px; right: 32%; animation:doongdoong 1s infinite alternate;}
+#main-title div.bgImg img:nth-child(2) {position: absolute; z-index: -10; width: auto; height: 92px; top: 250px; left: 10%; right: 40%; animation:doongdoong 2s infinite alternate;}
+#main-title div.bgImg img:nth-child(3) {position: absolute; z-index: -10; width: auto; height: 80px; top: 400px; bottom: 15%; right: 26%; animation:doongdoong 1.5s infinite alternate;}
+#main-title div.bgImg img:nth-child(4) {position: absolute; z-index: -10; width: auto; height: 40px; top: 330px; right: 8%; animation:doongdoong 3s infinite alternate;}
+
+/* #logo, #slogan, #key-visual, #illustration, #typograpy */
+section .content-box > h3 {font-size: 32px; display: inline-block; margin: 5px 0 10px;}
+section .content-box > div > .content {font-size: 16px; color: #000000; font-weight: 700;}
+
+#logo ul.divide-two-box > li:nth-child(1) {background-size: 96px;}
+#logo ul.divide-two-box > li:nth-child(2) {background-size: 200px;}
+#slogan ul.divide-two-box > li:nth-child(1) {background-size: 210px;}
+#slogan ul.divide-two-box > li:nth-child(2) {background-size: 86%; background-position: 50% 53%;}
+#typography ul.divide-two-box > li:nth-child(1) {background-size: 90%;}
+#typography ul.divide-two-box > li:nth-child(2) {background-size: 90%;}
+
+/* layout */
+ul.divide-two-box {display: block; margin-top: 32px;}
+ul.divide-two-box > li {position: relative; display: inline-block; width: 100%; height: 200px; vertical-align: top;
+      background-repeat: no-repeat; background-position: 50% 57%; border: 1px solid #ddd; box-sizing: border-box;
+     background-size: contain; padding: 45px 20px; background-origin: content-box;}
+ul.divide-two-box > li + li {margin-top: 10px;}
+ul.divide-two-box > li > span {font-weight: 700; letter-spacing: 0.05em; font-size: 16px; text-transform: uppercase; position: absolute; top: 6px; left: 14px;}
+
+/* .imageSlide */
+div.imageSlide ul > li {background-size: cover; background-repeat: no-repeat; background-position: center;}
+div.imageSlide ul > li > span {position: absolute; font-size: 16px; top: 20px; left: 26px; color: #fff; letter-spacing: 0.05em; font-weight: 700;}
+div.imageSlide .slideControl > a.play{left: calc(50% - 65px);}
+div.imageSlide .slideControl > a.prev, div.imageSlide .slideControl > a.next {display: none;}
+
+/* tab-content */
+.clearfix::after {display: block; content: ""; clear: both;}
+.tab_wrap > .btn_area {display: inline-block; height: 40px; position: relative; left: 50%; transform: translateX(-50%); margin-top: 32px; margin-bottom: 10px;}
+.tab_wrap > .btn_area > .btn_tab {text-align:center; font-size: 18px; font-weight: 700; margin: 0 10px; text-transform: uppercase; cursor: pointer;}
+.tab_wrap > .btn_area > .btn_tab.act {color: #0073FF; border-bottom: 2px solid #0073FF;}
+.tab_wrap > .content_area {display:none; width:100%;}
+.tab_wrap > .content_area.act {display:block}

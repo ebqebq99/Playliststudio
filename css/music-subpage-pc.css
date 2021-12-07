@@ -1,0 +1,45 @@
+section h2 {margin-bottom: 32px;}
+
+/* COMMON style */
+section {width: 100vw; overflow: hidden;}
+section#main-visual {padding: 0; height: 100vh; width: 100vw;}
+section#main-title {padding: 100px 0 0 0;}
+section#main-content{padding: 100px 0 0 0;}
+section#video {padding: 100px 0 0 0;}
+section#episodes {padding: 180px 0;}
+#footer {width: 100vw;}
+
+/* section#main-visual */
+#main-visual div.bgImg {background-position: left -50% center; width: 100vw; height: 100vh; background-size: 300vh; background-repeat: no-repeat;}
+#main-visual div.bgImg.show {background-position: left 25% center;}
+#main-visual div.bgImg > img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+
+/* section#main-title */
+#main-title h1 {font-size: 84px; font-weight: 700; line-height: 1.2;}
+#main-title .social {text-align: right; margin: 48px 0;}
+#main-title .font36-28 {font-size: 36px; font-weight: 700; line-height: 1.5;}
+
+/* section#main-content */
+#main-content {text-align: center;}
+#main-content h3 {font-size: 22px; font-weight: 700; line-height: 1.5; margin-bottom: 24px; text-transform: uppercase;}
+
+#main-content {text-align: left; }
+#main-content .info-list {margin-left: 33.3%;}
+#main-content th {font-size: 22px; font-weight: 700; line-height: 1.6; margin-bottom: 4px;}
+#main-content td {width: 33.3%; font-size: 18px; color: #666; line-height: 1.6; vertical-align: text-top;}
+#main-content th + th, #main-content td + td {padding-left: 20px;}
+#main-content tr > td {padding-bottom: 36px;}
+#main-content tr:last-of-type > td {padding-bottom: 0;}
+
+/* section#video */
+#video .iframe-ratio {position: relative; height: 0; padding-top: 56.25%;}
+#video .iframe-ratio > iframe {position: absolute; width: 100%; height: 100%; top:0; left: 0;}
+
+/* section#episodes */
+#episodes {text-align: center;}
+#episodes ul > li {padding: 20px; text-align: left;}
+#episodes ul > li > a > img {display: inline-block; width: 30%; height: auto; max-width: 200px; vertical-align: middle;}
+#episodes ul > li > a > p {display: inline-block; vertical-align:middle; font-size: 22px; font-weight: 700; padding-left: 32px;}
+
+/* .divide-two-nav */
+div.divide-two-nav {width: 100vw;}

@@ -1,0 +1,24 @@
+/* COMMON */
+section {width: 100vw; overflow: hidden;}
+section#main-title {padding: 120px 0 0 0;}
+section#main-content {padding: 120px 0;}
+
+/* section#main-title */
+#main-title {text-align: center;}
+#main-title h1 {font-size: 56px; font-weight: 700;}
+
+.bg {height: auto; position: fixed; z-index: -10; object-fit: cover;}
+.bg:first-of-type {top: 5%; left: -1%; width: 90%;}
+.bg:last-of-type {right: -1%; bottom: -1%; width: 50%;}
+
+/* section#main-content */
+.title {font-size: 19px; color: #000; font-weight: 800;}
+.font-16 {font-size: 16px; color: #666; font-weight: 400; margin-top: 12px;}
+.date {font-size: 16px; color: #999; font-weight: 400;}
+
+#main-content {position: relative;}
+#main-content img {display: inline-block; width: 16px;}
+
+#main-content ul > .container:first-of-type > li:first-of-type {border-top: 1px solid #d0d0d0;}
+#main-content ul > .container > li {padding: 30px 10px; border-bottom: 1px solid #d0d0d0;}
+

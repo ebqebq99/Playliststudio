@@ -1,0 +1,49 @@
+/* COMMON style */
+section {width: 100vw; overflow: hidden;}
+section#main-visual {height: 100vh;}
+section.mainslider {height: 80vh;}
+section.zigzag {padding: 180px 0;}
+section.press {padding: 180px 0;}
+
+.title {color: #000000; font-weight: 800;}
+.content {color: #666666; font-weight: 500; line-height: 1.7; font-size: 22px;}
+.date {color: #999999; font-weight: 400;}
+.text {position: absolute; top: 50%; transform: translate(0, -50%); width: 100%; color: #ffffff;}
+.vertical-center {position: absolute; top: 50%; transform: translate(0, -50%);}
+
+/* section#main-visual */
+#main-visual {margin: 0; overflow: hidden; background-color: rgba(26, 36, 125, 0.85);}
+#main-visual > .inner-95 {height: 94%;}
+#main-visual h2 {font-size: 86px; font-weight: 700; line-height: 1.4; color: #ffffff; text-align: left;}
+#main-visual a.play {position: absolute; left: 0; bottom: 0;}
+#main-visual a.play > img {width: 48px; height: 48px; border: 1px solid #ffffff; border-radius: 50%;}
+#main-visual p.letter-vertical {letter-spacing: 0.06em; bottom: 90px; right: -139px; color: #ffffff;}
+#main-visual div.bg-main-visual {position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; z-index: -10; overflow: hidden;}
+#main-visual div.bg-main-visual > iframe {position: relative; top: 0; left: -2%; width: 104%; height: 104%;}
+
+/* section.zigzag */
+.zigzag ul {display: flex; flex-wrap: wrap; justify-content: space-between;}
+.zigzag ul > li {position: relative; width: 45%; margin-bottom: 10%;}
+.zigzag ul > li:nth-child(2n) {top: 100px;}
+.zigzag ul > li > a > p.font22 {margin-top: 10px; font-size: 22px;}
+.zigzag ul > li > a > p.date {font-size: 22px;}
+
+/* section.mainslider */
+.mainslider .imageSlide > .box {height: 80vh;}
+.mainslider ul > li {background-size: cover !important;}
+.mainslider ul > li > .slidertext {position: absolute; width: 65%; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; letter-spacing: -0.02em; text-shadow: 0px 2px 3px rgb(0 0 0 / 20%); text-align: center;}
+.mainslider ul > li > .slidertext h2 {font-size: 72px; margin-bottom: 30px; line-height: 1;}
+.mainslider ul > li > .slidertext p {font-size: 22px;}
+.mainslider ul > li > .slidertext .goto {font-size: 28px; color: #fff; margin-top: 30px;}
+.mainslider ul > li > .slidertext .goto::after {border-color: #fff;}
+div.imageSlide .slideControl > a.play {left: calc(49% - 60px);}
+div.imageSlide ul.slideIndicator {left: 49%}
+
+/* section.press */
+.press ul > li {padding: 50px 0 50px 53px;}
+.press ul > li:hover > div {width: 68%;}
+.press ul > li > div > p.title {font-size: 32px;}
+.press ul > li > div > p.font22 {font-size: 22px;}
+.press ul > li > div > p.date {font-size: 16px;}
+.press ul > li > img {opacity:0; position: absolute; max-width: 30%; max-height: 90%; bottom: -10px; right: 0; transition: all 0.8s;}
+.press ul > li:hover > img {opacity: 1; bottom: 50%; transform: translateY(50%);}

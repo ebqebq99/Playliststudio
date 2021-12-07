@@ -1,0 +1,12 @@
+/* COMMON */
+section {overflow: hidden; width: 100vw;}
+section#main-title {padding: 120px 0 0 0;}
+section.zigzag {padding: 120px 0; text-align: center;}
+
+/* section#main-title */
+section#main-title {text-align: center;}
+#main-title h1 {font-size: 56px; font-weight: 700;}
+
+.bg {width: 80%; height: auto; position: fixed; z-index: -10; object-fit: cover;}
+.bg:first-of-type {top: -10%; left: -1%;}
+.bg:last-of-type {top: 60%; right: -1%; bottom: 0;}

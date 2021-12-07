@@ -1,0 +1,36 @@
+.font36-24 {font-size: 24px; color: #000000; font-weight: 700;}
+.content {font-size: 22px; color: #000000; font-weight: 700;}
+
+/* COMMON */
+section {overflow: hidden;}
+section:first-of-type {padding: 120px 0 120px;}
+section:last-of-type {padding: 0 0 150px;}
+section h2 {font-size: 72px; text-align: center;}
+section h3 {font-size: 24px; text-align: left; font-weight: 700; padding-bottom: 24px; border-bottom: 1px solid #ddd;}
+
+/* section#main-title */
+section#main-title {text-align: center;}
+#main-title h1 {font-size: 56px; font-weight: 700; margin-bottom: 36px;}
+#main-title .content {margin-top: 32px;}
+
+.bg{height: 101vh; position: fixed; top: -1%; left: 0; z-index: -10; object-fit: cover;}
+
+.title {font-weight: 800;}
+.date {color: #999; font-weight: 400;}
+.text {position: absolute; top: 50%; transform: translate(0, -50%); width: 100%;}
+
+/* section.zigzag */
+.zigzag ul {display: block; width: 95%; margin: 0 auto; padding-left: 13px;}
+.zigzag ul > li {position: relative; width: 100%; margin-bottom: 10%;}
+.zigzag ul > li > a:hover > div::before {display: none;}
+.zigzag ul > li > a > div {position: relative; display: inline-block; overflow: hidden; }
+
+.zigzag ul > li > a > .letter-vertical {font-size: 14px; left: 0; letter-spacing: 0.1em; text-transform: uppercase;}
+.zigzag ul > li > a > .title {font-size: 18px; margin-top: 10px;}
+.zigzag ul > li > a > .date {font-size: 16px;}
+
+.zigzag a.playlist-original > span.letter-vertical {color: #0073FF;}
+.zigzag a.teenply > span.letter-vertical {color: #ff7f0f;}
+.zigzag a.muply > span.letter-vertical {color: #7f00ff;}
+.zigzag a.nearest-but-lost > span.letter-vertical, .zigzag a.open-hour > span.letter-vertical, .zigzag a.plyverse > span.letter-vertical {color: #bbbbbb;}
+.zigzag > div.inner-75 > div{position: absolute; left: 50%; transform: translateX(-50%);}

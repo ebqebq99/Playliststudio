@@ -1,0 +1,34 @@
+.title {font-weight: 800;}
+.date {color: #999; font-weight: 400;}
+
+/* COMMON style */
+section {width: 100vw; overflow: hidden;}
+section#main-visual {padding: 0; height: 60vh;}
+section#main-title {padding: 30px 0;}
+section.zigzag {padding: 0 0 120px 0; text-align: center;}
+
+/* section#main-visual */
+#main-visual .main-visual-title {color: #fff; font-weight: 700; position: absolute; bottom: 10vh; z-index: 100;}
+#main-visual .main-visual-title > h2 {font-size: 56px; text-align: left; margin: 0; margin-bottom: 20px;}
+#main-visual .main-visual-title > p {font-size: 25px; line-height: 1.3;}
+
+#main-visual div.bg-main-visual {position: absolute; top: 0%; left: 0; width: 100vw; height: 60vh; overflow: hidden; background-repeat: no-repeat; background-size: contain; background-position: center;}
+#main-visual .imageSlide  .box {width: 115%;}
+#main-visual .imageSlide .slideControl > a.prev, .imageSlide .slideControl > a.next {display: none;}
+#main-visual .imageSlide .slideControl > a.play, .imageSlide ul.slideIndicator {position: absolute;}
+#main-visual .imageSlide .slideControl > a.play {left: 20px; top: calc(55vh + 7px);}
+#main-visual .imageSlide ul.slideIndicator {left: 58px; top: 55vh;}
+
+/* section#main-title */
+section#main-title {text-align: center;}
+#main-title h3 {font-size: 24px; font-weight: 500; text-align: left; width: 80%; position: relative; top: 50%; transform: translateY(-50%);}
+#main-title .content {margin-top: 32px;}
+
+#main-title div.bgImg {background-position: left 50% center; width: 100vw; height: 200px; background-size: 160vh; background-repeat: no-repeat;}
+#main-title div.bgImg.show {background-position: left 10% center;}
+
+/* section#zigzag */
+a.goto-plus::after, a.goto-plus > em, a.goto-plus > em::after {color:#6DD2FE; border-color: #6DD2FE;}
+
+/* .divide-two-nav */
+div.divide-two-nav {width: 100vw;}

@@ -1,0 +1,35 @@
+section {padding: 180px 0; text-align: center;}
+section .inner-subpage {position: relative; width: 90%; max-width: 900px; height: 100%; left: 0; right: 0; margin: 0 auto;}
+
+section .title {padding-bottom: 24px; margin-bottom: 30px; border-bottom: 1px solid #ddd; text-align: left;}
+section .title > h3 {font-size: 36px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.4; margin-bottom: 8px;}
+section .title > .date {font-size: 16px; color: #999;}
+section .social {text-align: right;}
+section .content {line-height: 1.7; padding: 50px 0;}
+section .content > article {font-size: 17px; color: #666; text-align: left;}
+section .content > .content-title {font-size: 24px; color: #333; font-weight: 700; margin-bottom: 1em; text-align: center;}
+section .content > .info {font-size: 17px; color: #666; font-weight: 700; text-align: left; margin-top: 30px;}
+section .content img, section .content video {display: block; margin-bottom: 1em; width: 100%;}
+
+@media screen and (max-width: 850.0px) {
+  section {padding: 120px 0;}
+  section .title > h3 {font-size: 24px;}
+  section .content {padding: 48px 0;}
+  section .content > .content-title {font-size: 19px;}
+  section .content > article {font-size: 15px;}
+  section .content > .info {font-size: 15px;}
+}
+
+/* section.notice */
+section.notice .content {border-bottom: 1px solid #ddd;}
+
+/* section.press */
+section.press .content {border-bottom: 1px solid #ddd;}
+
+/* section.plyverse */
+section.plyverse .goto-pink {display: inline-block; font-size: 17px; color: #000; font-weight: 700; background-color: #feb4ff; width: 100%; padding: 1.25em 2.375em; margin-bottom: 1em; transition: color 0.3s;}
+section.plyverse .goto-pink:hover {color: #0073FF;}
+section.plyverse p .goto-pink:not(:last-of-type) {margin-bottom: 0;}
+@media screen and (max-width: 850.0px) {section.plyverse .goto-pink {font-size: 15px;}}
+
+/* section.plystory */

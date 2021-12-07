@@ -1,0 +1,67 @@
+/* Scroll Animation*/
+.scll {
+  opacity: 0;
+  transition: all 1s ease !important;
+}
+.scll.show {
+  opacity: 1;
+  transform: none !important;
+}
+/* 최상단에 닿으면 페이드 아웃 */
+.sclls {
+  opacity: 0;
+  transition: all 1s ease !important;
+}
+.sclls.show {
+  opacity: 1;
+  transform: none !important;
+}
+/* 스크롤 애니메이션 없음 */
+.sclljs {
+  opacity: 0;
+  transition: all 1s ease !important;
+}
+.sclljs.show {
+  opacity: 1;
+  transform: none !important;
+}
+
+/* 아래에서 위로 페이드 인 */
+.scll-up {
+  transform: translate(0, 100px);
+}
+
+/* 위에서 아래로 페이드 인 */
+.scll-down {
+  transform: translate(0, -100px);
+}
+
+/* 왼쪽에서 오른쪽으로 페이드 인 */
+.scll-right {
+  transform: translate(-100px, 0);
+}
+
+/* 오른쪽에서 왼쪽으로 페이드 인 */
+.scll-left {
+  transform: translate(100px, 0);
+}
+
+/* 왼쪽으로 회전하면서 페이드 인 */
+.scll-rotateL {
+  transform: rotate(180deg);
+}
+
+/* 오른쪽으로 회전하면서 페이드 인 */
+.scll-rotateR {
+  transform: rotate(-180deg);
+}
+
+/* 작아진 상태에서 커지면서 페이드 인 */
+.scll-scaleUp {
+  transform: scale(.5);
+}
+
+/* 커진 상태에서 작아지면서 페이드 인 */
+.scll-scaleDown {
+  transform: scale(1.5);
+}

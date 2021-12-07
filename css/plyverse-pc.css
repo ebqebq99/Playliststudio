@@ -1,0 +1,43 @@
+.font36-24 {font-size: 36px; color: #000000; font-weight: 700;}
+.content {font-size: 22px; color: #000000; font-weight: 700;}
+.div-goto-plus {position: absolute; left: 50%; transform: translateX(-50%);}
+
+/* COMMON */
+section {overflow: hidden; width: 100vw;}
+section:first-of-type {padding: 180px 0 180px;}
+section:last-of-type {padding: 180px 0 170px;}
+section h2 {font-size: 72px; text-align: center;}
+section h3 {font-size: 36px; text-align: left; font-weight: 700; padding-bottom: 24px; border-bottom: 1px solid #ddd;}
+
+/* section#main-title */
+section#main-title {text-align: center;}
+#main-title h1 {font-size: 106px; font-weight: 700; margin-bottom: 36px;}
+#main-title .content {margin-top: 32px;}
+
+.bg{height: 101vh; position: fixed; top: -1%; left: 0; z-index: -10; object-fit: cover;}
+
+.title {font-weight: 800;}
+.date {color: #999; font-weight: 400;}
+.text {position: absolute; top: 50%; transform: translate(0, -50%); width: 100%;}
+
+/* section.zigzag */
+.zigzag ul {display: flex; flex-wrap: wrap; justify-content: space-between;}
+.zigzag ul > li {position: relative; width: 45%; margin-bottom: 10%;}
+.zigzag ul > li:nth-child(2n) {top: 100px;}
+.zigzag ul > li > a > div {position: relative; display: inline-block; overflow: hidden; }
+.zigzag ul > li > a > div::before {content: ''; position: absolute; left: 0; bottom: -100px; width: 100%; height: 100%; opacity: 0; background-position: center; background-repeat: no-repeat; background-size: cover; animation-name: slideup; transition-property: opacity bottom; transition-duration: 0.4s;}
+.zigzag ul > li > a:hover > div::before {bottom: 0; opacity: 0.7; transition: all 0.4s;}
+
+.zigzag ul > li > a > .letter-vertical {font-size: 16px; left: 0; letter-spacing: 0.1em; text-transform: uppercase;}
+.zigzag ul > li > a > .title {font-size: 22px; margin-top: 10px;}
+.zigzag ul > li > a > .date {font-size: 22px;}
+
+.zigzag a.playlist-original > span.letter-vertical {color: #0073FF;}
+.zigzag a.teenply > span.letter-vertical {color: #ff7f0f;}
+.zigzag a.muply > span.letter-vertical {color: #7f00ff;}
+.zigzag a.nearest-but-lost > span.letter-vertical, .zigzag a.open-hour > span.letter-vertical, .zigzag a.plyverse > span.letter-vertical {color: #bbbbbb;}
+
+.zigzag a.playlist-original > div::before {background-image: url(../img/hover-p.jpg);}
+.zigzag a.teenply > div::before {background-image: url(../img/hover-t.jpg);}
+.zigzag a.muply > div::before {background-image: url(../img/hover-m.jpg);}
+.zigzag a.nearest-but-lost > div::before, .zigzag a.open-hour > div::before, .zigzag a.plyverse > div::before {background-image: url(../img/hover-o.jpg);}

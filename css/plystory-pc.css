@@ -1,0 +1,13 @@
+/* COMMON */
+section {overflow: hidden; width: 100vw;}
+section#main-title {padding: 180px 0 0 0;}
+section.zigzag {padding: 180px 0;}
+
+/* section#main-title */
+section#main-title {text-align: center;}
+#main-title h1 {font-size: 106px; font-weight: 700;}
+#main-title .content {margin-top: 32px;}
+
+.bg {height: 102vh; position: fixed; z-index: -10; object-fit: cover;}
+.bg:first-of-type {bottom: -1%; left: -1%;}
+.bg:last-of-type {bottom: -1%; right: -1%;}

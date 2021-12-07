@@ -1,0 +1,8 @@
+/* pc #header ref:scroll-animation.js */
+#header {height: 74.5px; color: #000000;}
+#header.white {color: #000000;}
+
+#header h1 > a > img:first-child {opacity: 0;}
+#header h1 > a > img + img {opacity: 1;}
+#header.white h1 > a > img:first-child {opacity: 0;}
+#header.white h1 > a > img + img {opacity: 1;}

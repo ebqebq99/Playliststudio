@@ -1,0 +1,44 @@
+section h2 {margin-bottom: 32px;}
+
+/* COMMON style */
+section {width: 100vw; overflow: hidden;}
+section#main-visual {padding: 0; height: 70vh; width: 100vw;}
+section#main-title {padding: 50px 0 0 0;}
+section#main-content{padding: 50px 0 0 0;}
+section#video {padding: 50px 0 0 0;}
+section#episodes {padding: 120px 0;}
+#footer {width: 100vw;}
+
+/* section#main-visual */
+#main-visual div.bgImg {background-position: left -50% center; width: 100vw; height: 70vh; background-size: 300vh; background-repeat: no-repeat;}
+#main-visual div.bgImg.show {background-position: left 25% center;}
+#main-visual div.bgImg > img {height: 510px; position: absolute; bottom: 300px; left: 50%; transform: translateX(-50%);}
+
+/* section#main-title */
+#main-title {position: relative; top: -135px;}
+#main-title h1 {font-size: 48px; font-weight: 700; line-height: 1.2;}
+#main-title .social {text-align: right; margin: 48px 0;}
+#main-title .font36-28 {font-size: 28px; font-weight: 700; line-height: 1.5;}
+
+/* section#main-content */
+#main-content {text-align: center;}
+#main-content h3 {font-size: 22px; font-weight: 700; line-height: 1.5; margin-bottom: 24px; text-transform: uppercase;}
+
+#main-content {text-align: left; }
+#main-content th {font-size: 16px; font-weight: 700; line-height: 1.6; margin-bottom: 4px;}
+#main-content td {width: 50%; font-size: 16px; color: #666; line-height: 1.6; vertical-align: text-top;}
+#main-content th + th, #main-content td + td {padding-left: 40px;}
+#main-content tr > td {padding-bottom: 36px;}
+#main-content tr:last-of-type > td {padding-bottom: 0;}
+
+/* section#video */
+#video .iframe-ratio {position: relative; height: 0; padding-top: 56.25%;}
+#video .iframe-ratio > iframe {position: absolute; width: 100%; height: 100%; top:0; left: 0;}
+
+/* section#episodes */
+#episodes {text-align: center;}
+#episodes ul > li {padding: 20px 0; text-align: left;}
+#episodes ul > li > a > p {display: inline-block; vertical-align:middle; font-size: 16px; font-weight: 700; padding-top: 20px; text-align: left;}
+
+/* .divide-two-nav */
+div.divide-two-nav {width: 100vw;}

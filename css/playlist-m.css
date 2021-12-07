@@ -1,0 +1,43 @@
+/* COMMON style */
+section {width: 100vw; overflow: hidden;}
+section#main-visual {height: 100vh;}
+section.mainslider {height: 60vh;}
+section.zigzag {padding: 120px 0;}
+section.press {padding: 120px 0;}
+
+.title {color: #000000; font-weight: 800;}
+.content {color: #666666; font-weight: 500; line-height: 1.7; font-size: 22px;}
+.date {color: #999999; font-weight: 400;}
+.text {position: absolute; top: 50%; transform: translate(0, -50%); width: 100%; color: #ffffff;}
+.vertical-center {position: absolute; top: 50%; transform: translate(0, -50%);}
+
+/* section#main-visual */
+#main-visual {height: 100vh; margin: 0; overflow: hidden; background-color: rgba(26, 36, 125, 1);}
+#main-visual > .inner-95 {height: 94%; z-index: 10;}
+#main-visual h2 {font-size: 47px; font-weight: 700; line-height: 1.4; color: #fff; text-align: left;}
+#main-visual .play {position: absolute; left: 0; bottom: 0;}
+#main-visual .play > img {width: 48px; height: 48px; border: 1px solid #fff; border-radius: 50%;;}
+#main-visual .letter-vertical {font-size: 13px; letter-spacing: 0.06em; bottom: 10px; right: -185px; color: #fff; padding: 30px; background-color: #6DD2FE; animation-duration: 1.2s; animation-name: slideup;}
+#main-visual div.bg > img {position: absolute; top: 20px; left: -500px; animation-duration: 1.2s; animation-name: slideright;}
+
+/* section.zigzag */
+
+/* section.mainslider */
+.mainslider .imageSlide > .box {height: 60vh;}
+.mainslider ul > li {background-size: cover !important;}
+.mainslider ul > li > .slidertext {position: absolute; width: 65%; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; letter-spacing: -0.02em; text-shadow: 0px 2px 3px rgb(0 0 0 / 20%); text-align: center;}
+.mainslider ul > li > .slidertext h2 {font-size: 42px; margin-bottom: 20px; line-height: 1;}
+.mainslider ul > li > .slidertext p {font-size: 18px;}
+.mainslider ul > li > .slidertext .goto {color: #fff;}
+.mainslider ul > li > .slidertext .goto::after {border-color: #fff;}
+div.imageSlide .slideControl > a.prev, div.imageSlide .slideControl > a.next {display: none;}
+div.imageSlide .slideControl > a.play {left: calc(49% - 60px);}
+div.imageSlide ul.slideIndicator {left: 49%}
+
+/* section.press */
+.press .letter-vertical {font-size: 14px; left: 52px; top: 15px;}
+.press ul > li {padding: 20px 0 20px 33px;}
+.press ul > li > div > .title {font-size: 19px;}
+.press ul > li > div > .content {font-size: 16px;}
+.press ul > li > div > .date {font-size: 14px;}
+.press ul > li > img {display: block; width: 60%; margin-top: 15px;}

@@ -1,0 +1,51 @@
+.font36-24 {font-size: 24px; color: #000000; font-weight: 700;}
+.font22-17 {font-size: 17px; color: #000000; font-weight: 700;}
+.font22-16 {font-size: 16px; color: #000000; font-weight: 700;}
+
+/* COMMON style */
+section {overflow: hidden; width: 100vw;}
+section#main-title {padding: 120px 0 0 0; text-align: center;}
+section#main-content {padding: 50px 0 120px 0;}
+
+/* section#main-title */
+#main-title h1 {font-size: 56px; font-weight: 700; margin-bottom: 24px;}
+#main-title .font22-16 {margin-top: 100px;}
+
+#recruit-bg {position: absolute; top: 0; left: 0; width: 100vw; height: 120vh; overflow: hidden; z-index: -50;}
+#recruit-bg-1, #recruit-bg-2, #recruit-bg-3, #recruit-bg-4, #recruit-bg-5, #recruit-bg-6, #recruit-bg-7, #recruit-bg-8, 
+#recruit-bg-9, #recruit-bg-10 {position: absolute; animation-duration: 2s; animation-name: slideuptop;}
+
+#recruit-bg-1 {height: 102px; top: 281px; left: -50px; transition-delay: 450ms;}
+#recruit-bg-2 {height: 72px; top: 340px; right: 10%; transition-delay: 250ms;}
+#recruit-bg-3 {height: 40px; top: 52px; left: 27%; transition-delay: 550ms;}
+#recruit-bg-4 {height: 72px; top: -4px; left: 33%; transition-delay: 550ms;}
+#recruit-bg-5 {height: 62px; top: 520px; left: 12%; transition-delay: 250ms;}
+#recruit-bg-6 {height: 100px; top: 500px; left: 21%; transition-delay: 250ms;}
+#recruit-bg-8 {height: 160px; top: 50px; left: 52%; transition-delay: 250ms;}
+#recruit-bg-7 {height: 100px; top: -20px; right: -10%; transition-delay: 150ms;}
+#recruit-bg-9 {height: 46px; top: 502px; right: 11%; transition-delay: 250ms;}
+#recruit-bg-10 {height: 72px; top: 520px; right: 5%; transition-delay: 250ms;}
+
+/* section#main-content */
+#main-content {position: relative;}
+#main-content ul.grayline > li:first-child {border-color: #d0d0d0;}
+#main-content ul.grayline > li:last-child {border-color: #d0d0d0;}
+
+#main-content .expand-button {display: block; letter-spacing: -0.03em; padding: 16px 10px; transition: all 0.3s;}
+#main-content .expand-button > span {display: block; font-size: 16px; color:#999; font-weight: 400; margin-top: 5px; transition: all 0.3s;}
+#main-content .expand-button:hover { color: #fff; background-color: #0073FF;}
+#main-content .expand-button:hover > span {color: #fff;}
+
+#main-content .expand-content {font-size: 15px; line-height: 1.7; padding: 0 10px; margin-bottom: 110px;}
+#main-content .expand-content .subtitle {margin: 20px 0 35px;}
+#main-content .expand-content .emoji {width: 1em; height: 1em; -webkit-user-drag: none; border: none;}
+#main-content .expand-content ul > li + li {margin-top: 30px;}
+#main-content .expand-content ul > li h4 {font-size: 17px; margin-bottom: 10px;}
+#main-content .expand-content ul > li strong {color: #000000;}
+#main-content .expand-content ul > li p {color: #444444; margin-left: 20px;}
+#main-content .expand-content ul > li > ul > li {margin-top: 0; margin-left: 40px;}
+
+#main-content .dot::before {content: ""; position: relative; display: inline-block; 
+  top: -3.5px; left: 0; width: 6px; height: 6px; border-radius: 50%; margin-right: 12px; background-color: #0073ff;}
+#main-content .apply {position: absolute; left: 50%;transform: translateX(-50%); font-size: 1.125em; font-weight: 700; color: #fff; background-color: #0073ff;
+  padding: 0.667em 1.333em; margin-top: 25px;}

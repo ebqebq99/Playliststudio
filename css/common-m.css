@@ -1,0 +1,96 @@
+section h2 {font-size: 42px; font-weight: 800; letter-spacing: -0.02em; text-align: center; margin-bottom: 48px;}
+
+/* pc hidden */
+.pc {display: none !important;}
+br.only-pc {content: '';}
+br.only-pc::after {content: '\00a0';}
+
+/* inner */
+#wrapper {max-width: 1024px; overflow: hidden;}
+
+/* COMMON style */
+.section-title {font-size: 42px;}
+.layer-popup div.videosize {width: 95%;}
+.section-title {font-size: 72px; font-weight: 800; color: #000000; text-align: center; margin-bottom: 100px;}
+.title {color: #000000; font-weight: 800;}
+.content {color: #666666; font-weight: 500; line-height: 1.7;}
+.date {color: #999999; font-weight: 400;}
+
+.text {position: absolute; top: 50%; transform: translate(0, -50%); width: 100%; color: #ffffff;}
+
+/* #header ref:scroll-animation.js */
+#header {height: 60px;}
+#header h1 > a > img {width: 120px;}
+#header.white {color: #ffffff;}
+#header.white a.menu::before {background-color: #0073ff;}
+#header.white a.menu::after {background-color: #0073ff;}
+
+/* #gnb ref:gnb.js */
+#header a.menu {position: absolute; top: 50%; transform: translateY(-50%); right: 0; width: 24px; height: 16px; z-index: 10;}
+#header a.menu::before {content: ''; position: absolute; top: 0; width: 100%; height: 5px; background: #fff; transition: all 0.3s;}
+#header a.menu::after {content: ''; position: absolute; bottom: 0; left: 0; width: 50%; height: 5px; background: #fff; transition: all 0.3s;}
+
+#header a.menu.close::before {top: 50%; transform: translateY(-50%) rotate(45deg); width: 120%; background-color: #0073ff;}
+#header a.menu.close::after {top: 50%; transform: translateY(-50%) rotate(-45deg); width: 120%; background-color: #0073ff;}
+#header a.menu span {opacity: 0;}
+
+/* #gnb */
+nav#gnb {position: fixed; top: -100%; left:0;width: 100vw; height: calc(100vh - 60px); background-color: #0073ff; z-index: 1000; overflow: auto; padding: 20px 20px 40px 20px; transition: top 0.3s;}
+nav#gnb.open {top: 60px;}
+nav#gnb a {font-size: 18px; letter-spacing: 0.06em;}
+nav#gnb > ul {margin-bottom: 25px;}
+
+/* #gnb > #gnbb */
+ul#gnbb > li {display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255, 255, 255, 0.2); padding: 4px 0;}
+ul#gnbb > li > a {height: 100%; line-height: 36px;}
+ul#gnbb > li > ul {width: 50%;}
+ul#gnbb > li > ul:hover li{box-shadow: -1px 2px 3px rgb(0 0 0 / 20%);}
+ul#gnbb > li > ul a {font-size: 15px; line-height: 36px;}
+
+/* #gnb > #gnb-sns */
+ul#gnb-sns {line-height: 1.7;}
+ul#gnb-sns a:hover {color:#cccccc;}
+
+/* #gnb > #top-menu */
+ul#top-menu a {font-size: 15px;}
+ul#top-menu > li:first-child > a {color: #cccccc;}
+
+/* #gnb > #gnb-copyright */
+p#gnb-copyright {font-size: 13.5px;}
+
+/* #side-menu-nav */
+#side-menu-nav {display: none;}
+
+/* .divide-two */
+.divide-two-nav {position: relative; height: 160px; }
+.divide-two-nav > a {display: block; font-size: 20px; font-weight: 700; color: #0073FF; text-indent: 24px; line-height: 80px; background-size: 40px; border: 1px solid #0073FF; text-transform: uppercase; background-position: right 20px center; background-repeat: no-repeat; transition: all 0.3s;}
+.divide-two-nav > a + a {border-top: transparent;}
+
+/* footer */
+#footer {padding: 30px 0;}
+#footer h1 > img {width: 58px; height: auto;}
+ul#sns {font-size: 18px; margin-top: 18px;}
+ul#sns > li {font-weight: 700; line-height: 1.6em;}
+ul#sns > li:last-child {margin-top: 18px;}
+ul#sns > li > a > em {font-size: 16px;}
+div#company-info {font-size: 14px; line-height: 1.6em; margin-top: 18px;}
+div#company-info > #copyright {margin-top: 18px;}
+div#scroll-top-bottom {right: 30px; bottom: 30px;}
+
+/* section.zigzag */
+.zigzag ul {display: block; width: 95%; margin: 0 auto; padding-left: 13px;}
+.zigzag ul > li {position: relative; width: 100%; margin-bottom: 10%;}
+.zigzag ul > li > a:hover > div::before {display: none;}
+.zigzag ul > li > a > div {position: relative; display: inline-block; overflow: hidden; }
+.zigzag ul > li:last-of-type {margin-bottom: 0;}
+.zigzag ul > li > a {text-align: left;}
+.zigzag ul > li > a > .letter-vertical {font-size: 14px; left: 0; letter-spacing: 0.1em; text-transform: uppercase;}
+.zigzag ul > li > a > .title {font-size: 18px; margin-top: 10px;}
+.zigzag ul > li > a > .date {font-size: 16px;}
+
+.zigzag a.playlist-original > span.letter-vertical {color: #0073FF;}
+.zigzag a.teenply > span.letter-vertical {color: #ff7f0f;}
+.zigzag a.muply > span.letter-vertical {color: #7f00ff;}
+.zigzag a.nearest-but-lost > span.letter-vertical, .zigzag a.open-hour > span.letter-vertical, .zigzag a.plyverse > span.letter-vertical,
+.zigzag a.보도자료 > span.letter-vertical, .zigzag a.plystory > span.letter-vertical,
+.zigzag a.merchandise > span.letter-vertical, .zigzag a.ppibib > span.letter-vertical {color: #bbbbbb;}

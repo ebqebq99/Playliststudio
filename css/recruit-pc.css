@@ -1,0 +1,61 @@
+.font36-24 {font-size: 36px; color: #000000; font-weight: 700;}
+.font22-17 {font-size: 22px; color: #000000; font-weight: 700;}
+.font22-16 {font-size: 22px; color: #000000; font-weight: 700;}
+
+/* COMMON style */
+section {overflow: hidden; width: 100vw;}
+section#main-title {padding: 180px 0 0 0; text-align: center;}
+section#main-content {padding: 80px 0 180px 0;}
+
+/* section#main-title */
+#main-title h1 {font-size: 106px; font-weight: 700; margin-bottom: 36px;}
+#main-title .font22-16 {margin-top: 200px;}
+
+#recruit-bg {position: absolute; top: 0; left: 0; width: 100vw; height: 120vh; overflow: hidden; z-index: -50;}
+#recruit-bg-1, #recruit-bg-2, #recruit-bg-3, #recruit-bg-4, #recruit-bg-5, #recruit-bg-6, #recruit-bg-7, #recruit-bg-8, 
+#recruit-bg-9, #recruit-bg-10 {position: absolute;}
+
+#recruit-bg-1, #recruit-bg #recruit-bg-2, #recruit-bg #recruit-bg-3, #recruit-bg #recruit-bg-4,
+#recruit-bg #recruit-bg-7, #recruit-bg #recruit-bg-8 {animation-duration: 2s; animation-name: slideuptop;}
+
+#recruit-bg-1 {height: 218px; top: 371px; left: -100px; transition-delay: 450ms;}
+#recruit-bg-2 {height: 348px; top: 225px; left: 60px; transition-delay: 250ms;}
+#recruit-bg-3 {height: 90px; top: 80px; left: 298px; transition-delay: 550ms;}
+#recruit-bg-4 {height: 156px; top: -30px; left: 350px; transition-delay: 550ms;}
+#recruit-bg-5 {height: 148px; top: 664px; left: 380px; transition-delay: 250ms;}
+#recruit-bg-6 {height: 256px; top: 662px; left: 463px; transition-delay: 250ms;}
+#recruit-bg-7 {height: 252px; top: 0; left: auto; right:0; transition-delay: 250ms;}
+#recruit-bg-8 {height: 410px; top: 80px; left: auto; right: 64px; transition-delay: 150ms;}
+#recruit-bg-9 {height: 94px; top: 620px; left: auto; right: 210px; transition-delay: 250ms;}
+#recruit-bg-10 {height: 156px; top: 660px; left: auto; right: 100px; transition-delay: 250ms;}
+
+/* section#main-content */
+#main-content {position: relative;}
+#main-content ul.grayline > li:first-child {border-color: #d0d0d0;}
+#main-content ul.grayline > li:last-child {border-color: #d0d0d0;}
+
+#main-content .expand-button {display: block; letter-spacing: -0.03em; line-height: 94px; padding: 0 10px; transition: all 0.3s;}
+#main-content .expand-button > span {position: relative; font-size: 16px; color:#999; font-weight: 400; float: right; padding-right: 50px; transition: all 0.3s;}
+#main-content .expand-button > span::before {right: 19px; bottom: 50%; transform: rotate(45deg);}
+#main-content .expand-button > span::after {right: 12px; bottom: 50%; transform: rotate(-45deg);}
+#main-content .expand-button > span::before, #main-content .expand-button > span::after {content: ""; position: absolute; display: block; width: 12px; height: 3px; background-color: #000; transition: all 0.3s;}
+
+#main-content .expand-button:hover > span::before, #main-content .expand-button:hover > span::after{background-color: #fff;}
+#main-content .expand-button:hover { color: #fff; background-color: #0073FF;}
+#main-content .expand-button:hover > span {color: #fff;}
+#main-content .expand-button.open > span::before {transform: rotate(135deg);}
+#main-content .expand-button.open > span::after {transform: rotate(-135deg);}
+
+#main-content .expand-content {line-height: 1.7; padding: 0 10px; margin-bottom: 160px;}
+#main-content .expand-content .subtitle {font-size: 17px; margin: 40px 0 60px;}
+#main-content .expand-content .emoji {width: 1em; height: 1em; -webkit-user-drag: none; border: none;}
+#main-content .expand-content ul > li + li {margin-top: 30px;}
+#main-content .expand-content ul > li h4 {font-size: 19px; margin-bottom: 10px;}
+#main-content .expand-content ul > li strong {color: #000000;}
+#main-content .expand-content ul > li p {font-size: 17px; color: #444444; margin-left: 20px;}
+#main-content .expand-content ul > li > ul > li {margin-top: 0; margin-left: 40px;}
+
+#main-content .dot::before {content: ""; position: relative; display: inline-block; 
+  top: -3.5px; left: 0; width: 6px; height: 6px; border-radius: 50%; margin-right: 12px; background-color: #0073ff;}
+#main-content .apply {position: absolute; left: 50%;transform: translateX(-50%); font-size: 1.125em; font-weight: 700; color: #fff; background-color: #0073ff;
+  padding: 0.667em 1.333em; margin-top: 50px;}

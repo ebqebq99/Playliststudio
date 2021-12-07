@@ -1,0 +1,57 @@
+.font36-24 {font-size: 24px; color: #000000; font-weight: 700;}
+.content {font-size: 16px; color: #000000; font-weight: 700;}
+
+/* COMMON */
+section {width: 100vw; overflow: hidden; text-align: center;}
+section#main-title {padding: 120px 0 0;}
+section#core-value {padding: 120px 0 0; height: 575px;}
+section#vision-mission {padding: 120px 0 0;}
+section#history {padding: 120px 0;}
+section h2 {margin-bottom: 22px;}
+#footer {width: 100vw;}
+
+/* section#main-title */
+section#main-title {text-align: center; padding: 120px 0 0;}
+#main-title h1 {font-size: 56px; font-weight: 700; margin-bottom: 32px;}
+#main-title .content {margin-top:10px;}
+
+#main-title div.bgImg {background-position: left 30% top 0px; background-repeat: no-repeat; background-size: 300vh; margin-top: 72px;}
+#main-title div.bgImg.show {background-position: left 60% top 0px;}
+#main-title figure {display: inline-block; width: 36%; margin: 0 5%; max-width: 230px; margin-bottom: 50px;}
+#main-title figure:nth-child(2n) {position: relative; top: 80px;}
+#main-title figure figcaption {font-size: 14px; text-align: left; margin-top: 10px;}
+
+/* section#vision-mission */
+section#vision-mission {padding: 130px 0 150px;}
+#vision-mission p {margin-bottom: 72px;}
+#vision-mission img {width: 80%; max-width: 900px;}
+
+/* section#core-value */
+#core-value h2 {margin-bottom: 30px;}
+
+/* section.mainslider */
+#core-value .imageSlide .dummy {opacity: 0; height: 360px;}
+#core-value .imageSlide ul > li {background-size: 120px; background-repeat: no-repeat; background-position: top center;}
+#core-value .imageSlide ul > li > .slidertext {position: absolute; width: 65%; top: 60px; left: 50%; transform: translateX(-50%); letter-spacing: -0.02em; text-align: center;}
+#core-value .imageSlide ul > li > .slidertext h2 {font-size: 64px; color: #eee; position: relative; top: 90px; z-index: -10;}
+#core-value .imageSlide ul > li > .slidertext .title {font-size: 36px; font-weight: 700;}
+#core-value .imageSlide ul > li > .slidertext .content {font-size: 16px; margin-top: 24px;}
+
+#core-value .imageSlide .slideControl > a.prev, .imageSlide .slideControl > a.next {display: none;}
+#core-value .imageSlide .slideControl > a.play {left: calc(50% - 55px); color: #0073FF;}
+#core-value .imageSlide ul.slideIndicator {left: calc(50% - 5px);}
+#core-value .imageSlide ul.slideIndicator > li > a {border: 1px solid #0073FF;}
+#core-value .imageSlide ul.slideIndicator > li.on > a {border-color: #0073FF; background-color: #0073FF;}
+
+/* section#history */
+section#history {padding: 120px 0 120px;}
+#history h2 {margin-bottom: 30px;}
+#history ul {position: relative;}
+#history ul::before {content: ""; position: absolute; left: 50%; top: -20px; background-color: #eeeeee; width: 1.3px; height: 100%; z-index: -10;}
+#history ul div.year {font-size: 32px; font-weight: 700; padding: 35px 0 0;}
+#history ul div.month {width: 45px; height: 45px; text-align: center; font-size: 16px; font-weight: 700; color: #0073FF; line-height: 45px; background-color: #fff; border: 1px solid; border-radius: 50%; margin-left: calc(50% - 21.5px);}
+
+#history ul > li {width: 50%; height: 100%; margin: 15px 0; display: inline-block; position: relative; left: 0;}
+#history ul > li p.content {padding: 15px 0;}
+#history ul > li > img {padding-top: 0; margin-bottom: 15px;}
+#history ul > li:last-of-type {margin-bottom: 0;}

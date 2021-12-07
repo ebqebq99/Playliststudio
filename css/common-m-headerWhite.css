@@ -1,0 +1,12 @@
+/* mobile #header ref:scroll-animation.js */
+#header {height: 60px;}
+#header h1 > a > img {width: 120px;}
+#header h1 > a > img:first-child {opacity: 0;}
+#header h1 > a > img + img {opacity: 1;}
+#header.white {color: #ffffff;}
+
+#header a.menu::before {background-color: #0073ff;}
+#header a.menu::after {background-color: #0073ff;}
+
+#header.white a.menu::before {background-color: #0073ff;}
+#header.white a.menu::after {background-color: #0073ff;}

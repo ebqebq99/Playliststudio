@@ -1,0 +1,23 @@
+/* COMMON style */
+section {width: 100vw; overflow: hidden;}
+section#main-title {padding: 180px 0 0 0;}
+section#main-content {padding: 180px 0;}
+
+/* section#main-title */
+#main-title {text-align: center;}
+#main-title h1 {font-size: 106px; font-weight: 700;}
+
+.bg {height: 101vh; position: fixed; z-index: -10; object-fit: cover;}
+.bg:first-of-type {top: -10%; left: -1%;}
+.bg:last-of-type {top: 60%; bottom: 0; right: -1%;}
+
+/* section#main-content */
+.title {font-size: 32px; color: #000; font-weight: 800;}
+.font-16 {font-size: 16px; color: #666; font-weight: 400; margin-top: 12px;}
+.date {font-size: 16px; color: #999; font-weight: 400;}
+
+#main-content {position: relative;}
+#main-content img {display: inline-block; width: 16px;}
+#main-content ul > .container:first-of-type > li {border-top: 1px solid #d0d0d0;}
+#main-content ul > .container > li {display: inline-block; width: calc(50% - 40px); padding: 30px 10px; border-bottom: 1px solid #d0d0d0;}
+#main-content ul > .container > li + li {margin-left: 40px;}

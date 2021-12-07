@@ -1,0 +1,51 @@
+/* COMMON */
+section {width: calc(100vw - 80px); overflow: hidden; text-align: left;}
+section#main-title {padding: 180px 0 0 0;}
+section#logo {padding: 180px 0 0 0;}
+section#slogan {padding: 180px 0 0 0;}
+section#key-visual {padding: 180px 0 0 0;}
+section#illustration {padding: 180px 0 0 0;}
+section#typograpy {padding: 180px 0 180px 0;}
+#footer {width: calc(100vw - 80px);}
+
+/* #main > #main-title */
+#main-title h1 {font-size: 106px; font-weight: 700; margin-bottom: 16px; letter-spacing: 0.1em;}
+#main-title .font36-24 {font-size: 36px; color: #000000; font-weight: 700;}
+
+#main-title div.bgImg img:nth-child(1) {position: absolute; z-index: -10; width: auto; height: 152px; top: 160px; right: 22%; animation:doongdoong 1s infinite alternate;}
+#main-title div.bgImg img:nth-child(2) {position: absolute; z-index: -10; width: auto; height: 172px; top: 280px; right: 40%; animation:doongdoong 2s infinite alternate;}
+#main-title div.bgImg img:nth-child(3) {position: absolute; z-index: -10; width: auto; height: 144px; top: 500px; bottom: 0; right: 26%; animation:doongdoong 1.5s infinite alternate;}
+#main-title div.bgImg img:nth-child(4) {position: absolute; z-index: -10; width: auto; height: 72px; top: 430px; right: 8%; animation:doongdoong 3s infinite alternate;}
+
+/* #logo, #slogan, #key-visual, #illustration, #typograpy */
+section .content-box > h3 {font-size: 52px; display: inline-block; width: 30%; min-width: 310px; margin-right: 5%; position: relative; top: -10px;}
+section .content-box {display: flex;}
+section .content-box > div > .content {font-size: 22px; color: #000000; font-weight: 700; margin-left: 5px;}
+
+#logo ul.divide-two-box > li:nth-child(1) {background-size: 172px; background-position: 50% 60%;}
+#logo ul.divide-two-box > li:nth-child(2) {background-size: 80%;}
+#slogan ul.divide-two-box > li:nth-child(1) {background-size: 100%; background-position: 50% 65%; }
+#slogan ul.divide-two-box > li:nth-child(2) {background-size: 86%;}
+#typography ul.divide-two-box > li:nth-child(1) {background-size: 90%;}
+#typography ul.divide-two-box > li:nth-child(2) {background-size: 90%;}
+
+/* layout */
+ul.divide-two-box {display: block; margin-top: 72px;}
+ul.divide-two-box > li {position: relative; display: inline-block; width: calc(50% - 20px); height: 345px; vertical-align: top;
+      background-repeat: no-repeat; background-position: center; border: 1px solid #ddd; box-sizing: border-box;
+     background-size: contain; padding: 0 20px; background-origin: content-box;}
+ul.divide-two-box > li + li {margin-left: 36px;}
+ul.divide-two-box > li > span {font-weight: 700; letter-spacing: 0.05em; font-size: 16px; text-transform: uppercase; position: absolute; top: 26px; left: 28px;}
+
+/* imageSlide */
+div.imageSlide ul > li {background-size: cover; background-repeat: no-repeat; background-position: center;}
+div.imageSlide ul > li > span {position: absolute; font-size: 16px; top: 20px; left: 26px; color: #fff; letter-spacing: 0.05em; font-weight: 700;}
+div.imageSlide .slideControl > a.play{left: calc(50% - 65px);}
+
+/* tab-content */
+.clearfix::after {display: block; content: ""; clear: both;}
+.tab_wrap > .btn_area {display: inline-block; height: 40px; position: relative; left: 50%; transform: translateX(-50%); margin-top: 72px; margin-bottom: 40px;}
+.tab_wrap > .btn_area > .btn_tab {text-align:center; font-size: 28px; font-weight: 700; margin: 0 10px; text-transform: uppercase; cursor: pointer;}
+.tab_wrap > .btn_area > .btn_tab.act {color: #0073FF; border-bottom: 2px solid #0073FF;}
+.tab_wrap > .content_area {display:none; width:100%;}
+.tab_wrap > .content_area.act {display:block}
