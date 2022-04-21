@@ -36,7 +36,7 @@ div#side-menu-nav.close::before {transform: rotate(135deg);}
 div#side-menu-nav.close::after {transform: rotate(135deg);}
 
 div#side-menu-nav a.letter-vertical {letter-spacing: 0.1em; right: -150px; top: 30px; opacity: 1; transition: all 0.1s;}
-div#side-menu-nav.open a.letter-vertical {opacity: 0; right: 265px;}
+div#side-menu-nav.open a.letter-vertical {opacity: 0; right: 265px; display: none;}
 div#side-menu-nav ul {opacity: 0; text-transform: uppercase;}
 div#side-menu-nav ul.open {opacity: 1; padding: 30px; line-height: 1.7em; letter-spacing: 0.06em;}
 div#side-menu-nav ul.open > li > a:hover {color:#cccccc;}
@@ -66,7 +66,7 @@ div#scroll-top-bottom {left: 42px; bottom: 42px;}
 .zigzag ul > li {position: relative; width: 45%; margin-bottom: 10%;}
 .zigzag ul > li:nth-child(2n) {top: 100px;}
 .zigzag ul > li > a > div {position: relative; display: inline-block; overflow: hidden; }
-.zigzag ul > li > a > div::before {content: ''; position: absolute; left: 0; bottom: -100px; width: 100%; height: 100%; opacity: 0; background-position: center; background-repeat: no-repeat; background-size: cover; animation-name: slideup; transition-property: opacity bottom; transition-duration: 0.4s;}
+.zigzag ul > li > a > div::before {content: ''; position: absolute; left: 0; bottom: -100px; width: 100%; height: 100%; opacity: 0; background-position: center; background-repeat: no-repeat; background-size: cover; animation-name: slideup; transition-property: bottom; transition-duration: 0.4s;}
 .zigzag ul > li > a:hover > div::before {bottom: 0; opacity: 0.7; transition: all 0.4s;}
 
 .zigzag ul > li > a {text-align: left;}

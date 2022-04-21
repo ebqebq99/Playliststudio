@@ -4,7 +4,7 @@
 /* COMMON */
 section {width: calc(100vw - 80px); overflow: hidden; text-align: center;}
 section#main-title {padding: 180px 0 0;}
-section#core-value {padding: 180px 0 0; height: 840px;}
+section#core-value {padding: 180px 0 0; height: 875px;}
 section#vision-mission {padding: 180px 0 0;}
 section#history {padding: 180px 0;}
 section h2 {margin-bottom: 32px;}
@@ -37,14 +37,14 @@ section#main-title {text-align: center;}
 #core-value .imageSlide .dummy {opacity: 0; height: 530px; width: 800px;}
 
 #core-value .imageSlide ul > li {background-size: 220px; background-repeat: no-repeat; background-position: top center; }
-#core-value .imageSlide ul > li > .slidertext {position: absolute; width: 65%; top: 160px; left: 50%; transform: translateX(-50%); letter-spacing: -0.02em; text-align: center;}
+#core-value .imageSlide ul > li > .slidertext {position: absolute; width: 100%; top: 160px; left: 50%; transform: translateX(-50%); letter-spacing: -0.02em; text-align: center;}
 #core-value .imageSlide ul > li > .slidertext h2 {font-size: 96px; color: #eee; position: relative; top: 115px; z-index: -10;}
 #core-value .imageSlide ul > li > .slidertext .title {font-size: 36px; font-weight: 700;}
 #core-value .imageSlide ul > li > .slidertext .content {font-size: 22px; margin-top: 24px;}
 
 #core-value .imageSlide .slideControl > a.prev, .imageSlide .slideControl > a.next {display: none;}
-#core-value .imageSlide .slideControl > a.play {left: calc(50% - 55px); color: #0073FF;}
-#core-value .imageSlide ul.slideIndicator {left: calc(50% - 5px);}
+#core-value .imageSlide .slideControl > a.play {left: calc(50% - 55px); color: #0073FF; bottom: -20px;}
+#core-value .imageSlide ul.slideIndicator {left: calc(50% - 5px); bottom: -20px;}
 #core-value .imageSlide ul.slideIndicator > li > a {border: 1px solid #0073FF;}
 #core-value .imageSlide ul.slideIndicator > li.on > a {border-color: #0073FF; background-color: #0073FF;}
 

@@ -160,6 +160,8 @@ ul.grayline > li:last-child {border-bottom: #666666 solid 1px;}
 ul.grayline > li {position: relative; border-bottom: #d0d0d0 solid 1px;}
 ul.grayline > li > div > span.letter-vertical {color: #666666; margin-top: 9px; margin-left: -30px;}
 
+iframe {border: none;}
+
 @keyframes slideup {0% {bottom: -500px;} 100% {bottom: 10px;}}
 @keyframes slideuptop {0% {top: 50%; opacity: 0;} 100% {opacity: 1;}}
 @keyframes slidedown {0% {top: 100%; opacity: 0;} 100% {opacity: 1;}}
