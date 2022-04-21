@@ -1,7 +1,4 @@
-Contact_ebqebq99@gmail.com
+# Playlist studio [![Netlify Status](https://api.netlify.com/api/v1/badges/8fb0a27a-60da-4b1f-aa40-5b018d65b18e/deploy-status)](https://app.netlify.com/sites/rlaebqebq-playliststudio/deploys)
 
-🔭 I’m currently working on ...
+http://playliststudio.kr/ 
 
-- Playlist studio https://ebqebq99-playliststudio.netlify.app
-- Ottogi https://ebqebq99-ottogi.netlify.app
-- Starbucks https://ebqebq99-starbucks.netlify.app
