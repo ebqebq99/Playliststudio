@@ -36,7 +36,7 @@ div#side-menu-nav.close::before {transform: rotate(135deg);}
 div#side-menu-nav.close::after {transform: rotate(135deg);}
 
 div#side-menu-nav a.letter-vertical {letter-spacing: 0.1em; right: -150px; top: 30px; opacity: 1; transition: all 0.1s;}
-div#side-menu-nav.open a.letter-vertical {opacity: 0; right: 265px; display: none;}
+div#side-menu-nav.open a.letter-vertical {opacity: 0; right: 265px;}
 div#side-menu-nav ul {opacity: 0; text-transform: uppercase;}
 div#side-menu-nav ul.open {opacity: 1; padding: 30px; line-height: 1.7em; letter-spacing: 0.06em;}
 div#side-menu-nav ul.open > li > a:hover {color:#cccccc;}

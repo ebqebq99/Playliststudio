@@ -5,8 +5,8 @@ section h2 {margin-bottom: 32px;}
 /* COMMON style */
 section {width: calc(100vw - 80px); overflow: hidden;}
 section#main-visual {padding: 0; height: 85vh; width: 100vw;}
-section#main-title {padding: 60px 0 0 0;}
-section#section-playlistoriginal {padding: 180px 0 0 0;}
+section#main-title {padding: 60px 0;}
+section#section-playlistoriginal {padding: 0;}
 section#section-teenply {padding: 180px 0 0 0;}
 section#section-muply {padding: 180px 0 0 0;}
 section#section-globalchannel {padding: 180px 0;}
